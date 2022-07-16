@@ -5,6 +5,8 @@ const express = require('express');
 const body = require('body-parser');
 const test = require('./routes/test.js');
 
+logger.init(cofig.name);
+
 const app = express();
 
 app.use(body.json());
