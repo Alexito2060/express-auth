@@ -5,7 +5,7 @@ const express = require('express');
 const body = require('body-parser');
 const test = require('./routes/test.js');
 
-logger.init(cofig.name);
+logger.init(config.name);
 
 const app = express();
 
