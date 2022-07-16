@@ -1,4 +1,4 @@
-const config = require('config.json');
+const config = require('./config.json');
 const mongo = require('mongoose');
 const express = require('express');
 
