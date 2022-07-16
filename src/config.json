@@ -1,5 +1,4 @@
 {
-    "name": "[Node-Auth]",
     "port": 80,
     "mongo": "mongo://localhost:27017/node-auth",
     "route": "/api/v1",

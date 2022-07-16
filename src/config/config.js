@@ -1,7 +1,5 @@
 const config = require('../config.json');
 
-exports.name = process.env.NAME || config.name;
-
 exports.port = process.env.PORT || config.port;
 
 exports.mongo = process.env.MONGO || config.mongo;
