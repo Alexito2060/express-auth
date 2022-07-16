@@ -1,9 +1,10 @@
 {
     "name": "[Node-Auth]",
     "port": 80,
-    "mongo": "",
+    "mongo": "mongo://localhost:27017/node-auth",
+    "route": "/api/v1",
     "tokens": {
-        "access": "",
-        "encrypt": ""
+        "access": "token-for-api-access",
+        "encrypt": "token-for-encryption"
     }
 }

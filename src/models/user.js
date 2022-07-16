@@ -25,5 +25,3 @@ const schema = new mongo.Schema({
 });
 
 module.exports = mongo.model('User', schema);
-
-// Bro que mas falta?
