@@ -1,0 +1,9 @@
+{
+    "name": "[Node-Auth]",
+    "port": 80,
+    "mongo": "",
+    "tokens": {
+        "access": "",
+        "encrypt": ""
+    }
+}
